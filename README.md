@@ -18,4 +18,6 @@ A hosted web site in a packaged app for Firefox OS.
 
 * Modify `manifest.webapp` and add your app name, description and developer details.
 
+* Modify `static/script.js` and replace the URL with your app URL on line 10.
+
 * Replace the icons in `static/` with your own at `60px by 60px` and `128px by 128px`.

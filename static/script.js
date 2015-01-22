@@ -7,7 +7,7 @@
 			return;
 		}
 		
-		location.replace("https://flipboard.com/m/magazines#weeks-highlights");
+		location.replace("http://your-mobile-site-url.com");
 	}
 
 	// Called on start and on every offline/online event
