@@ -1,0 +1,31 @@
+/*csslint box-sizing: false, box-model: false; */
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	overflow: hidden;
+	font-size: 100%;
+	-moz-user-select: none;
+	user-select: none;
+	font-family: sans-serif;
+}
+
+* {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+main {
+	background: url('./spinner.png') center no-repeat;
+	height: 100%;
+	text-align: center;
+}
+
+.flash-offline {
+	color: #888;
+	display: none;
+}
+
+.is-offline .flash-offline {
+	display: block;
+}

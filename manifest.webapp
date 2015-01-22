@@ -1,0 +1,19 @@
+{
+	"name": "App name",
+	"launch_path": "/index.html",
+	"version": "0.1",
+	"description": "Your app description.",
+	"icons": {
+		"60": "/static/icon-60.png",
+		"128": "/static/icon-128.png"
+	},
+	"developer": {
+		"name": "Developer name",
+		"url": "http://developer-url.com"
+	},
+	"type": "web",
+	"chrome": {
+		"navigation": true
+	},
+	"default_locale": "en"
+}
